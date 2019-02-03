@@ -2,8 +2,35 @@
 Simple index-based hashmap Datebase 
 
 The database code is written in Python 3 with Jupyter notebook. 
-There are 2 option to try the code.
+There are 2 option to try the code. (option 2 is easier and recommended)
+
 Option 1: Download and install Python 3 and Jupyter notebook from this site https://www.python.org/downloads/ 
+Jupytor notebook can be downloaded from here https://jupyter.readthedocs.io/en/latest/install.html
+You can also use pip (Python package manager) command in cmd (commandline)
+Open the commandline and type:
+
+                        pip3 install --upgrade pip
+
+This will check that you have the newest version. 3 stands for Python 3. When you have pip type the next in cmd.
+
+                        pip3 install jupyter
+
+There is a package called anaconda installation that have both included: https://www.anaconda.com/distribution/ 
+This is far more easy 
+
+After the installation you have to add Python to your path (environment path) in order to use it. When you type Python in cmd immediately after the installation it cannot find it. So you have to add it. 
+
+                        1.	Type environment variable(redigere systemmiljøvariablerne) in the searchbox left down corner 
+                                    (for windows 10)
+                        2.	Right-click 'Computer' in the Navigation Tree Panel on the left.
+                        3.	Properties popup (egenskaber for system) appears 
+                        4.	Select 'Advanced system settings'
+                        5.	Click 'Environment Variables...' in the Advanced Tab
+                        6.	Under 'System Variables' you have to add (new button) the python path to the systemvariable path.
+                                    It have to be added concatenated with semicolon. eg. C:\Windows;C:\Windows\System32;C:\Python36
+                        7.	You also need to Append the path below.
+                        
+
 option 2: Try the code in Google colab. You do not need to install Python but it require that you have a Google account to sign in
 
 The following description is coding in Google colab
