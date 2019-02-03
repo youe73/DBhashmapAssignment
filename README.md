@@ -1,22 +1,25 @@
 # DBhashmapAssignment
 Simple index-based hashmap Datebase 
 
-Simple DB hashmap in Google colab
+The database code is written in Python 3 with Jupyter notebook. 
+There are 2 option to try the code.
+Option 1: Download and install Python 3 and Jupyter notebook from this site https://www.python.org/downloads/ 
+option 2: Try the code in Google colab. You do not need to install Python but it require that you have a Google account to sign in
 
-Require that you have a Google account to sign in
+The following description is coding in Google colab
 
 Open the site URL for Google colab: https://colab.research.google.com/notebooks/welcome.ipynb 
 1.	Go to File button on the top menu bar and select new Python 3 notebook
 2.	Copy paste the following code: 
 
-def write_tofile(keypair):
-    file2 = open("textvalue.txt","a+")    
-    file2.write(f"{str(keypair)}\n")
-    
-def insert(a,b):    
-    pair = a,b
-    write_tofile(pair)   
-    print("Inserted " + a,b)
+            def write_tofile(keypair):
+                file2 = open("textvalue.txt","a+")    
+                file2.write(f"{str(keypair)}\n")
+
+            def insert(a,b):    
+                pair = a,b
+                write_tofile(pair)   
+                print("Inserted " + a,b)
 
 3.	Press on the arrow to the left to run the cell.
 4.	Go to Insert button on the top bar and select code cell
